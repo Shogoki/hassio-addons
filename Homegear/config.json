@@ -27,7 +27,7 @@
     "amd64",
     "armv7",
     "i386"
-  ]
+  ],
   "devices": [
     "/dev/ttyUSB0:/dev/ttyUSB0:rwm",
     "/dev/ttyUSB0:/dev/ttyUSB0:rwm"
