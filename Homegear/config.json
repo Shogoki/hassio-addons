@@ -5,7 +5,7 @@
   "description": "Homegear as a Hassio add-on",
   "startup": "before",
   "boot": "auto",
-  "gpio": true,
+  "gpio": false,
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
@@ -22,9 +22,15 @@
   },
   "schema": {
   },
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7",
+    "i386"
+  ],
   "devices": [
-    "/dev/ttyAMA0:/dev/ttyAMA0:rwm",
-    "/dev/ttyACM0:/dev/ttyACM0:rwm"
+    "/dev/ttyUSB0:/dev/ttyUSB0:rwm",
+    "/dev/ttyUSB0:/dev/ttyUSB0:rwm"
   ]
   "arch": [
     "aarch64",
