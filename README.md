@@ -1,5 +1,7 @@
 # Homegear as a Hassio add-on
 
+This is a fork from https://github.com/yeah/hassio-addons 
+
 This add-on repository contains the Homegear add-on for Hassio (Home Assistant).
 
 ## Installation
